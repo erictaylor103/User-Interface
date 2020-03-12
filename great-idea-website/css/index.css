@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,117 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+.main-container {
+	width: 800px;
+	margin: auto;
+	}
+
+nav {
+	display: inline-block;
+	margin: 0 0 10px;
+}
+
+nav a {
+	margin: 20px;
+	color: lightgray;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: black;
+}
+
+/*this centers the company logo with the nav links*/
+section img {
+	display: inline-block;
+	margin: 20px 0 -11px 50px;
+}
+
+.round-image {
+	margin-top: 70px;
+	display: inline-block;
+}
+
+.company-slogan {
+	width: 400px;
+	margin: 5px;
+	display: inline-block;
+}
+
+.company-slogan h1 {
+	padding: 0px;
+	margin: 80px;
+	font-size: 60px;
+	text-align: center;
+}
+
+.company-slogan button {
+	margin: 0px 78px 54px 130px;
+	padding: 5px 33px;
+	font-size: 13px;
+	text-align: center;
+	border: 1px solid black;
+}
+
+.company-slogan button:hover{
+	background-color: lightgray;
+	color: white;
+}
+
+.top-content-wrapper {
+	width: 800px;
+	border-top: 1px solid black;
+	margin-top: 7px;
+}
+
+.top-content-left {
+	display: inline-block;
+	width: 380px;
+	margin: 30px 0;
+}
+
+.top-content-right {
+	display: inline-block;
+	width: 380px;
+}
+
+.middle-image {
+	width: 100%;
+}
+
+.bottom-content-wrapper {
+	width: 800px;
+	margin-top: 30px;
+	border-bottom: 1px solid black;
+}
+
+.bottom-content-left {
+	display: inline-block;
+	width: 250px;
+	margin-right: 13px;
+}
+
+.bottom-content-middle {
+	display: inline-block;
+	width: 250px;
+	margin-right:13px;
+}
+
+.bottom-content-right {
+	display: inline-block;
+	width: 250px;
+	margin-right: 0;
+	margin-bottom: 35px;
+}
+
+address h2 {
+	margin-top: 30px;
+}
+
+footer p {
+	font-size: 10px;
+	margin: 30px 0;
+	text-align: center;
+}
