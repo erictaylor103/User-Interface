@@ -66,14 +66,10 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 
-.container {
+.main-container {
 	width: 800px;
 	margin: auto;
 	}
-
-.top-nav {
-	margin: 0 auto;
-}
 
 nav {
 	display: inline-block;
@@ -81,23 +77,23 @@ nav {
 }
 
 nav a {
-	/* TB LR */
 	margin: 20px;
 	color: lightgray;
 	text-decoration: none;
 }
 
-.logo {
+nav a:hover{
+	color: black;
+}
+
+/*this centers the company logo with the nav links*/
+section img {
 	display: inline-block;
 	margin: 20px 0 -11px 50px;
 }
 
-.header-text {
-	display: inline;
-}
-
 .round-image {
-	margin-top: 50px;
+	margin-top: 70px;
 	display: inline-block;
 }
 
@@ -114,68 +110,71 @@ nav a {
 	text-align: center;
 }
 
-.main-heading button {
-	margin: -29px 78px 54px 100px;
+.company-slogan button {
+	margin: 0px 78px 54px 130px;
 	padding: 5px 33px;
 	font-size: 13px;
 	text-align: center;
 	border: 1px solid black;
 }
 
-.main-img {
-	display: inline-block;
-	width: 400px;
+.company-slogan button:hover{
+	background-color: lightgray;
+	color: white;
 }
 
-.top-content {
+.top-content-wrapper {
 	width: 800px;
 	border-top: 1px solid black;
-	margin-top: 20px;
+	margin-top: 7px;
 }
 
-.top-left {
+.top-content-left {
 	display: inline-block;
 	width: 380px;
-	margin: 20px 0;
+	margin: 30px 0;
 }
 
-.top-right {
+.top-content-right {
 	display: inline-block;
 	width: 380px;
 }
 
-.middle-img {
+.middle-image {
 	width: 100%;
 }
 
-.bottom-content {
+.bottom-content-wrapper {
 	width: 800px;
-	margin-top: 20px;
+	margin-top: 30px;
+	border-bottom: 1px solid black;
 }
 
-.bottom-left {
+.bottom-content-left {
 	display: inline-block;
 	width: 250px;
 	margin-right: 13px;
 }
 
-.bottom-middle {
+.bottom-content-middle {
 	display: inline-block;
 	width: 250px;
 	margin-right:13px;
 }
 
-.bottom-right {
+.bottom-content-right {
 	display: inline-block;
 	width: 250px;
 	margin-right: 0;
+	margin-bottom: 35px;
 }
 
 address h2 {
-	margin: 20px;
+	margin-top: 30px;
 }
 
 footer p {
+	font-size: 10px;
 	margin: 30px 0;
 	text-align: center;
 }
